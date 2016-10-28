@@ -204,20 +204,6 @@ $(document).ready(function(){
 				<h3 class="material-icons main_title">
 					<div class="title_line"></div>
 					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					............
 					<a href="#"> <span>moveing</span>
 					</a>
 				</h3>
