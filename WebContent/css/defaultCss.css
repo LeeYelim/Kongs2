@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
+body {
+	font-family: 'Raleway', 'Nanum Gothic';
+}
+
+* {
+	margin: 0 auto;
+	padding: 0px;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+button {
+	cursor: pointer;
+}
+
+input:focus {
+	outline: none;
+}
+
+input[type="button"] {
+	cursor: pointer;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}
+
+input:-moz-read-only { /* For Firefox */
+	background-color: #e6ec3f;
+}
+
+input:read-only {
+	background-color: #e6ec3f;
+}
+
+img {
+	border: none;
+}
+
+li {
+	list-style: none;
+}
+
+pre {
+	white-space: pre-line; /*공백이나 탭공간을 없앤다*/
+	word-break: break-all; /*텍스트가 넘칠경우 줄바꿈을 해준다*/
+}
+
+.clear {
+	clear: both;
+}
+
+.container {
+	width: 1280px;
+	position: relative;
+}
+
+.w100 {
+	width: 100%;
+}
+
+.h100 {
+	height: 100%;
+}

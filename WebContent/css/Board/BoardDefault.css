@@ -1,0 +1,39 @@
+/**
+	게시판, 글작성 defaultCss
+*/
+
+#background {
+	position: fixed;
+	z-index: 0;
+	height: 100%;
+	background-image: url("../../img/CompetitionBoard/background.png");
+	width: 100%;
+}
+
+#titleBar {
+	position: relative;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(255, 207, 54, 0.4);
+	background: -webkit-linear-gradient(rgba(255, 207, 54, 0.4), #bb1177);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(rgba(255, 207, 54, 0.4), #bb1177);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(rgba(255, 207, 54, 0.4), #bb1177);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(rgba(255, 207, 54, 0.4), #bb1177);
+	/* Standard syntax (must be last) */
+}
+
+p.title {
+	position: relative;
+	width: 99%;
+	padding: 0.5%;
+	color: #555;
+	font-size: 24px;
+	line-height: 1.5;
+	font-weight: bold;
+	box-shadow: 0px 1px 1px #888888;
+	letter-spacing: 1px;
+	background: #fff;
+}
